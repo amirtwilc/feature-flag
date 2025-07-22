@@ -38,7 +38,7 @@ public class FF4JConfig {
     }
 
     private void setupPonderationStrategy(FF4j ff4j) {
-        String featureName = "PS6_PONDERATION";
+        String featureName = "PS5_PONDERATION";
         if (!ff4j.exist(featureName)) {
             Feature feature = new Feature(featureName);
 
@@ -51,7 +51,7 @@ public class FF4JConfig {
     }
 
     private void setupReleaseDateStrategy(FF4j ff4j) {
-        String featureName = "PS6_RELEASE_DATE";
+        String featureName = "PS5_RELEASE_DATE";
         if (!ff4j.exist(featureName)) {
             Feature feature = new Feature(featureName);
 
@@ -63,7 +63,7 @@ public class FF4JConfig {
     }
 
     private void setupWhiteListStrategy(FF4j ff4j) {
-        String featureName = "PS6_WHITE_LIST";
+        String featureName = "PS5_WHITE_LIST";
         if (!ff4j.exist(featureName)) {
             Feature feature = new Feature(featureName);
 
@@ -75,7 +75,7 @@ public class FF4JConfig {
     }
 
     private void setupTimeBasedStrategy(FF4j ff4j) {
-        String featureName = "PS6_BUSINESS_HOURS";
+        String featureName = "PS5_BUSINESS_HOURS";
         if (!ff4j.exist(featureName)) {
             Feature feature = new Feature(featureName);
 
@@ -97,7 +97,7 @@ public class FF4JConfig {
     }
 
     private void setupHardwareStrategy(FF4j ff4j) {
-        String featureName = "PS6_HARDWARE";
+        String featureName = "PS5_HARDWARE";
         if (!ff4j.exist(featureName)) {
             Feature feature = new Feature(featureName);
 
